@@ -1,4 +1,4 @@
-## my-intune-training
+## My-intune-training
 This repository documents me learning Microsoft intune. Microsoft Intune is an MDM solution provided by Microsoft. I wanted to learn Microsoft intune because it has a nice integration with Entra ID, where Intune defines compliance but relies on Entra ID to handle storage of identities and conditional access.Entra Id serves as a gate that only allows access to your device and organizations resources if Intune has labelled the device as being compliant. 
 
 Some of my goals are
@@ -21,14 +21,14 @@ First go to Intune portal> Apple devices > enrollment and download the CSR file.
 
 
 # Security groups/ Dyanmic groups/ RBAC
-In entra the two main groups are
-M365 groups and Security Groups. Security groups are what you want to create when youre applying permissions- for example I can create a licensing group that I assign my licenses to. Dynamic groups are not assigned, instead users are automaticaly assigned based on attributes. Here I created a new hire group that assigns users by
+I created my first groups. I wanted to practice dynamic groups which populate by setting attributes when you form the group. To set the attribute, click new group > Membership type, Dyanmic and then add it. For the NewHires group, this rule will add a user if their hire date is within the last 30 days. 
 <img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
 
 <img width="661" height="408" alt="Screenshot 2026-05-10 120612" src="https://github.com/user-attachments/assets/3f7ac09e-125a-455d-9348-ab167083e520" />
 
 
 Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
+
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
 
 
