@@ -1,4 +1,4 @@
-### my-intune-training
+## my-intune-training
 This repository documents me learning Microsoft intune. Microsoft Intune is an MDM solution provided by Microsoft. I wanted to learn Microsoft intune because it has a nice integration with Entra ID, where Intune defines compliance but relies on Entra ID to handle storage of identities and conditional access.Entra Id serves as a gate that only allows access to your device and organizations resources if Intune has labelled the device as being compliant. 
 
 Some of my goals are
@@ -7,7 +7,7 @@ Some of my goals are
 3. Using autopilot to handle device provisioning.
 4. Learning Entra Id for managing cloud based identities.
 
-# Set up and enrolling my first device
+## Set up and enrolling my first device
 I have one windows 11 computer and an Iphone.
 
 After I joined my Windows computer to the entra domain and had the MDM authority set to intune, my device enrolled itself into Intune.
