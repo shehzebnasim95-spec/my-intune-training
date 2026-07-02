@@ -32,6 +32,7 @@ Its best practice to assign licenses through groups in order to do this at scale
 
 
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
+
 ## Verify membership rules
 The green check mark means the assignment picked up! If I now assign licenses to the group, Entra will process the membership rule and provision a license to the user.
 
