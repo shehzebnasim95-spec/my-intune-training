@@ -22,10 +22,11 @@ First go to Intune portal> Apple devices > enrollment and download the CSR file.
 
 # Security groups/ Dyanmic groups/ RBAC
 In entra the two main groups are
-M365 groups and Security Groups. Security groups are what you want to create when youre applying permissions- for example I can create a licensing group that I assign my licenses to. Dynamic groups are not assigned, instead users are automaticaly assigned based on attributes. Here I created a new hire group that assigns users by<img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
+M365 groups and Security Groups. Security groups are what you want to create when youre applying permissions- for example I can create a licensing group that I assign my licenses to. Dynamic groups are not assigned, instead users are automaticaly assigned based on attributes. Here I created a new hire group that assigns users by
+<img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
 
 
-<img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/1bde814d-9eb9-44b3-ab50-ddd4bd5ff60c" />
+<img width="661" height="408" alt="Screenshot 2026-05-10 120612" src="https://github.com/user-attachments/assets/d581b822-bd28-49cc-b659-ddba7108769e" />
 
 Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
