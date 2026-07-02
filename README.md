@@ -21,8 +21,10 @@ First go to Intune portal> Apple devices > enrollment and download the CSR file.
 <img width="611" height="286" alt="image" src="https://github.com/user-attachments/assets/b56a4f78-3437-453b-bb40-88ee79b4e97e" />
 
 
-# Security groups/ Dyanmic groups/ RBAC
-Its best practice to assign licenses through groups in order to do this at scale. I wanted to practice dynamic groups which populate by setting attributes when you form the group. To set the attribute, click new group > Membership type, Dyanmic and then add it. For the NewHires group, this rule will add a user if their hire date is within the last 30 days. Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
+## Security groups/ Dyanmic groups/ RBAC
+Its best practice to assign licenses through groups in order to do this at scale.
+## Define a dyanmic group
+ For the NewHires group, this rule will add a user if their hire date is within the last 30 days. Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
 
 <img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
 
@@ -30,7 +32,7 @@ Its best practice to assign licenses through groups in order to do this at scale
 
 
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
-
+## Verify membership rules
 The green check mark means the assignment picked up! If I now assign licenses to the group, Entra will process the membership rule and provision a license to the user.
 
 
