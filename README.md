@@ -21,14 +21,14 @@ First go to Intune portal> Apple devices > enrollment and download the CSR file.
 
 
 # Security groups/ Dyanmic groups/ RBAC
-I created my first groups. I wanted to practice dynamic groups which populate by setting attributes when you form the group. To set the attribute, click new group > Membership type, Dyanmic and then add it. For the NewHires group, this rule will add a user if their hire date is within the last 30 days. 
+I created my first groups. I wanted to practice dynamic groups which populate by setting attributes when you form the group. To set the attribute, click new group > Membership type, Dyanmic and then add it. For the NewHires group, this rule will add a user if their hire date is within the last 30 days. Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
+
 <img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
 
 <img width="661" height="408" alt="Screenshot 2026-05-10 120612" src="https://github.com/user-attachments/assets/3f7ac09e-125a-455d-9348-ab167083e520" />
 
 
-Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
-
+The green check mark means Entra assigned the test user to the NewHires group:
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
 
 
