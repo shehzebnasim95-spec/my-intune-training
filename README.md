@@ -8,6 +8,7 @@ Some of my goals are
 4. Learning Entra Id for managing cloud based identities.
 
 ## Set up and enrolling my first device
+
 I have one windows 11 computer and an Iphone.
 
 After I joined my Windows computer to the entra domain and had the MDM authority set to intune, my device enrolled itself into Intune.
@@ -28,9 +29,9 @@ I created my first groups. I wanted to practice dynamic groups which populate by
 <img width="661" height="408" alt="Screenshot 2026-05-10 120612" src="https://github.com/user-attachments/assets/3f7ac09e-125a-455d-9348-ab167083e520" />
 
 
-The green check mark means Entra assigned the test user to the NewHires group:
 <img width="560" height="95" alt="Screenshot 2026-05-10 120616" src="https://github.com/user-attachments/assets/1525b957-81c0-410f-8069-78b821b9e591" />
 
+The green check mark means Entra assigned the test user to the NewHires group:
 
 
 
