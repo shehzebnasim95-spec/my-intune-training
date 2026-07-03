@@ -39,7 +39,7 @@ The green check mark means the assignment picked up! If I now assign licenses to
 
 ## Managing secure access.
 
-In my tenant I decided it would be a best practice to enable TAP and MFA. Instead of having passwords that it admins track, When a user is created a TAP is generated and the user changes their own password the first time they sign in. I then registered every user to have MFA for an added layer of safety.
+In my tenant I decided it would be a best practice to enable OTP and MFA.  When a user is created a OTP is generated and the user changes their own password the first time they sign in. I then registered every user to have MFA for an added layer of safety.
 
 
 
