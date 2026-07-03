@@ -21,10 +21,11 @@ First go to Intune portal> Apple devices > enrollment and download the CSR file.
 <img width="611" height="286" alt="image" src="https://github.com/user-attachments/assets/b56a4f78-3437-453b-bb40-88ee79b4e97e" />
 
 
-## Security groups/ Dyanmic groups/ RBAC
+## Security groups/ Finishing setting up tenant
 Its best practice to assign licenses through groups in order to do this at scale.
-## Define a dyanmic group
- For the NewHires group, this rule will add a user if their hire date is within the last 30 days. Testing this group is done by clicking validate rules, and select a test user to see if that group assignment picks up
+## Define a dynamic group
+ After creating my tenant I wanted to set up my first groups. In an organization it would be common to have a group of new hires that you can assign licenses to and send HR documents.
+ Therefore, I created  a NewHires dynamic group and then tested against a user.
 
 <img width="839" height="498" alt="setup dynamicgroup" src="https://github.com/user-attachments/assets/e13af3c9-a2fc-4b63-9787-278c30ea291a" />
 
@@ -35,6 +36,10 @@ Its best practice to assign licenses through groups in order to do this at scale
 
 ## Verify membership rules
 The green check mark means the assignment picked up! If I now assign licenses to the group, Entra will process the membership rule and provision a license to the user.
+
+## Managing secure access.
+
+In my tenant I decided it would be a best practice to enable TAP and MFA. Instead of having passwords that it admins track, When a user is created a TAP is generated and the user changes their own password the first time they sign in. I then registered every user to have MFA for an added layer of safety.
 
 
 
