@@ -1,1 +1,8 @@
+# Win-11 blocking elevation requests
 
+Restricting devices from unwanted prompts that ask for admin passwords is a best policy and can be pushed via Intune. Here is how its done :
+
+In order to create a local computer policy to block prompts for admin passwords, You can create a configuration policy and assign it to all windows devices.
+The workflow: In the devices page, select the profile you want to target, then the choose the setting, shown below, and assign it and monitor the setting pushed to the device.
+
+![Settings](https://github.com/shehzebnasim95-spec/my-intune-training/blob/main/projects/9-22-elevationrequest.png)
