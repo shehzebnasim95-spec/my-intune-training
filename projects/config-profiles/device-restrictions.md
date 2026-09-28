@@ -6,4 +6,4 @@ In this project you find the configuration profiles for my Windows devices.
 
 Result:
 
-![Result](config-profiles/Screenshot 2026-09-22 204749.png).
+![Result](/Screenshot 2026-09-22 204749.png).
