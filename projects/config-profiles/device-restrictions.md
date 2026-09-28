@@ -2,7 +2,7 @@
 
 In this project you find the configuration profiles for my Windows devices. 
 
-![Settings](https://github.com/shehzebnasim95-spec/my-intune-training/blob/main/projects/9-22-elevationrequest.png)
+![Block-prompts](https://github.com/shehzebnasim95-spec/my-intune-training/blob/main/projects/9-22-elevationrequest.png)
 
 Result:
 
