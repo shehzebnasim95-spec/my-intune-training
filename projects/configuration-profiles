@@ -4,4 +4,4 @@ Restricting devices from unwanted prompts that ask for admin passwords is a best
 
 In order to create a local computer policy to block prompts for admin passwords, You can create a configuration policy and assign it to all windows devices.
 
-projects/9-22-elevationrequest.png
+(setting)[projects/9-22-elevationrequest.png]
