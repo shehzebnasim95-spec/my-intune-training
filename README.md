@@ -12,16 +12,12 @@ Cloud MDM-
 -CA Policies linked to compliance.
 
 
-[Untitled document.pdf](https://github.com/user-attachments/files/33161280/Untitled.document.pdf)
 
 ## My-intune-training
-This project is part of IT homelabbing. Here we are setting up devices on intune. I configured MDM authority to set Intune as the MDM solution and configured automatic enrollment so devices automatically enroll in Intune upon joining Entra ID I Enrolled a Windows 11 device by joining Microsoft Entra ID. Now I can deploy apps using Intune and compliant devices will be able to use those apps, which is checked by Entra ID. 
+This project is part of IT homelabbing. Here we are setting up devices on intune. My Setup:
 
-Some of my goals are
-1. To troubleshoot common scenarios
-2. Understanding intune in multiple OSes- the different requirements, what Apple allows Intune to do, and how things can fail.
-3. Using autopilot to handle device provisioning.
-4. Learning Entra Id for managing cloud based identities.
+
+<img width="786" height="503" alt="image" src="https://github.com/user-attachments/assets/0f61d424-a7da-4f39-ba6d-d008d4bca261" />
 
 ## Set up and enrolling my first device
 
