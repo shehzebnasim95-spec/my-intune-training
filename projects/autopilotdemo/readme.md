@@ -8,6 +8,8 @@ This method requires obtaining the hash ID of the device, uploading it, and crea
 Step 1 obtaining the hardware hash:
 I used the code:
 
+
+
 Step 2. Upload the Hardware Hash as a csv file
 *In production this is not needed because the vendor will register your device in intune 
 
