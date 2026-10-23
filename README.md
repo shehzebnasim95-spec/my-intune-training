@@ -4,12 +4,12 @@
 ## Professional Portfolio & Homelab Journey 
 
 ### What youll find here
-Cloud MDM- 
--Using Entra and Intune to push settings into devices.
+Certification journey: How i prepared for the MD102
+Project deep-dives: studies on how to deploy Intune at scale 
+Cloud MDM- Setting up devices(zero touch provisioning), integrating entra and Intune
 
--Autopilot deployment.
--App deployments.
--CA Policies linked to compliance.
+Dive in:
+The [/projects](projects) folder contains the 
 
 
 
