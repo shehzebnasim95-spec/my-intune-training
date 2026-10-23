@@ -30,10 +30,9 @@ It enforces and tracks many things like:
 App installations
 User-targeted settings
 Compliance checks
+
+
 <img width="1103" height="168" alt="importedcsv" src="https://github.com/user-attachments/assets/da2dc1c6-2888-4184-9eab-811e793e039f" />
-
-
-
 
 Screenshots:
 
