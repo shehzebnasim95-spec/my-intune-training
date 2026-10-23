@@ -5,11 +5,11 @@
 
 This method requires obtaining the hash ID of the device, uploading it, and creating an Entra Identity, Autopilot security group. An autopilot deployment is then assigned to the group. 
 
-#Entra identity
+# Entra identity
 
 Autopilotdemo group was used to associate a deployment profile
 
-#Hardware Hash
+# Hardware Hash
 6666-1189-7542-2380-xxxxx
 
 Step 1 obtaining the hardware hash:
@@ -32,8 +32,6 @@ App installations
 User-targeted settings
 Compliance checks
 
-
-<img width="1103" height="168" alt="importedcsv" src="https://github.com/user-attachments/assets/da2dc1c6-2888-4184-9eab-811e793e039f" />
 
 Screenshots:
 
