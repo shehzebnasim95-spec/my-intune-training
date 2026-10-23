@@ -10,6 +10,7 @@ Cloud MDM- Setting up devices(zero touch provisioning), integrating entra and In
 
 Dive in:
 The [/projects](projects) folder contains labs I set up to learn Intune MDM
+
 The [/docs](docs) folder has my Tenant identities, policies, hardware hashes.
 
 
