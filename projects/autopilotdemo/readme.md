@@ -19,11 +19,8 @@ Step 2. Upload the Hardware Hash as a csv file
 *In production this is not needed because the vendor will register your device in intune 
 
 Step 3. Create an Entra security group 
-Assignments : dynamic : dynamic query: (device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))
 
-
-
-This group is needed to associate a deployment profile to, which will configure my VM. 
+Assignments : dynamic : dynamic query: (device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"). This group is needed to associate a deployment profile to, which will configure my VM. 
 
 Step 4. Create an ESP
 An enrollment sign up page is what the user sees during the Autopilot set up phase. 
