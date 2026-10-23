@@ -8,7 +8,7 @@ This method requires obtaining the hash ID of the device, uploading it, and crea
 Step 1 obtaining the hardware hash:
 
 
-In powershell:Powershell
+--In powershell:Powershell
 Set-ExecutionPolicy bypass
 Install-Script Get-WindowsAutoPilotInfo
 Get-WindowsAutoPilotInfo.ps1 -OutputFile "C:\AutoPilotHWID.csv"
@@ -24,7 +24,13 @@ Assignments : dynamic : dynamic query: (device.devicePhysicalIDs -any (_ -starts
 
 This group is needed to associate a deployment profile to, which will configure my VM. 
 
-Step 4. Deploy an autopilot profile 
+Step 4. Create an ESP
+An enrollment sign up page is what the user sees during the Autopilot set up phase. 
+It enforces and tracks many things like:
+App installations
+User-targeted settings
+Compliance checks
+<img width="1103" height="168" alt="importedcsv" src="https://github.com/user-attachments/assets/da2dc1c6-2888-4184-9eab-811e793e039f" />
 
 
 
