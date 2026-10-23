@@ -6,20 +6,13 @@
 This method requires obtaining the hash ID of the device, uploading it, and creating an Entra Identity, Autopilot security group. An autopilot deployment is then assigned to the group. 
 
 #Entra identity
+
 Autopilotdemo group was used to associate a deployment profile
+
 #Hardware Hash
 6666-1189-7542-2380-xxxxx
 
 Step 1 obtaining the hardware hash:
-
-
---In powershell:Powershell
-
-Set-ExecutionPolicy bypass
-
-Install-Script Get-WindowsAutoPilotInfo
-
-Get-WindowsAutoPilotInfo.ps1 -OutputFile "C:\AutoPilotHWID.csv"
 
 /
 Step 2. Upload the Hardware Hash as a csv file
