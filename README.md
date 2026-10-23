@@ -9,7 +9,8 @@ Project deep-dives: studies on how to deploy Intune at scale
 Cloud MDM- Setting up devices(zero touch provisioning), integrating entra and Intune
 
 Dive in:
-The [/projects](projects) folder contains the 
+The [/projects](projects) folder contains labs I set up to learn Intune MDM
+The [/docs](docs) folder has my Tenant identities, policies, hardware hashes.
 
 
 
